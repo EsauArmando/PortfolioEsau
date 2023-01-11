@@ -144,12 +144,13 @@ button:active {
 	padding: 0 .25rem;
 	text-transform: uppercase;
 	transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+	border-radius: 8px;
 }
 
 #navbar ul li a:hover {
 	color: #000;
 	box-shadow: inset 100px 0 0 0 #d3a78c;
-	border-radius: 5px;
+	border-radius: 8px;
 }
 
 #navbar ul li a:active {
