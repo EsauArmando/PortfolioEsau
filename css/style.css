@@ -188,15 +188,18 @@ button:active {
 	text-align: center;
 }
 
-#work .work-row {
-	display: flex;
+#work h4 {
+	text-align: center;
+}
 
+#work .work-row {
+	display:flex ;
 }
 
 #work .work-row-box {
 	border: 2px solid #1c1c1c;
 	border-radius: 10px;
-	margin: 10px;
+	margin: 15px;
 	padding: 30px;
 }
 
@@ -206,8 +209,13 @@ button:active {
 
 /* About */
 #about {
-	padding: 80px 0;
+	padding: 90px 0;
 	display: flex;
+}
+
+#about img{
+	width: 100vh;
+	height: 500px;
 }
 
 #about .about-text {
@@ -220,6 +228,10 @@ button:active {
 }
 
 /* Linktree Hover */
+
+#about .linktree{
+	text-align: center;
+}
 
 #about .linktree a {
 	overflow: hidden;
